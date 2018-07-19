@@ -1,0 +1,32 @@
+/*
+* @Author: ww
+* @Date:   2018-06-13 11:45:43
+* @Last Modified by:   ww
+* @Last Modified time: 2018-07-19 13:23:58
+*/
+@import "public.scss";
+@function rem($n){
+	@return  $n/2/37.5; 
+}
+.rotary-plate{
+  margin-top: rem(20rem);
+  text-align: center;
+  position: relative;
+  .plate-out{
+    width:rem(530rem); 
+    transition:all linear 3s;
+  }
+  .plate-inside{
+    width:rem(150rem);
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+
+}
+
+
+
+
+

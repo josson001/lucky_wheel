@@ -1,0 +1,17 @@
+{
+  "name": "rotaryTable",
+  "version": "1.0.0",
+  "description": "大转盘抽奖",
+  "main": "index.js",
+  "repository": "https://github.com/josson001/lucky_wheel.git",
+  "author": "josson001",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
